@@ -65,27 +65,28 @@ This project conducts an in-depth analysis of the World Health Organization's Li
 
 ## Visualizetion and Analysis
 
-# Trends and Disparities in Life Expectancy:
+## 1.Trends and Disparities in Life Expectancy:
 
 ![WHO_LifeExpectancy_DataAnalysis](https://github.com/MousumiAria/WHO_LifeExpectancy_DataAnalysis/blob/main/Trends_Disp_LE.JPG?raw=true)
 
-* Overall Life Expectancy Trend by Year and Country-wise:
-Inserted a line chart with the 'Year' and 'Country' column into the axis area and 'Life Expectancy' into the values area.  This chart gives a line for each country, allowing you to see disparities and trends at the same time.
+i. Overall Life Expectancy Trend by Year and Country-wise:
+   Inserted a line chart with the 'Year' and 'Country' column into the axis area and 'Life Expectancy' into the values area.  This chart gives a line for each country, allowing you to 
+   see disparities and trends at the same time.
 
-* * Comparing Developed vs. Developing:
+ii. Comparing Developed vs. Developing:
 Here used a line chart to represent 'Year' to the axis and 'Life Expectancy' to values and 'Status' (Developed/Developing) in the legend.
 This shows how developed countries' life expectancy trends compare to those of developing countries.
 
-* * * Country with Highest & Lowest Life Expectancy:
+iii. Country with Highest & Lowest Life Expectancy:
 For a specific year or range, to calculate countries with the highest and lowest life expectancy here used DAX formula and to show those used Cards.
 
-* * * * Country-wise Average Life Expectancy:
+iv. Country-wise Average Life Expectancy:
 Used a matrix with showing country wise average Life Expectancy and a bar chart where showing distribution of life Expectancy.
 
-* * * * * Interactive Filtering:
+v. Interactive Filtering:
 Introduced slicers in dashboard, which allow users to select specific years or countries. This enabled users to focus on specific time frames or countries of interest.
 
-* * * * * * Map Visualizetion:
+vi.  Map Visualizetion:
 Incorporated a map visual and used 'Life Expectancy' as a measure. This provides a geographical representation of life expectancy data, where users can identify regions with higher or lower life expectancy.
 
 Insights:
@@ -94,45 +95,45 @@ Countries that have seen a significant increase or decrease in life expectancy o
 The gap between the highest and lowest life expectancy and how it's changing.
 How external events, like wars or economic downturns, might have impacted life expectancy in certain regions.
 
-## Mortality Analysis:
+## 2. Mortality Analysis:
 
 ![WHO_LifeExpectancy_DataAnalysis](https://github.com/MousumiAria/WHO_LifeExpectancy_DataAnalysis/blob/main/MortalityAna_LE.JPG?raw=true)
 
 To analysis Mortality  here used mortality-related columns such as 'Adult Mortality', 'Infant Deaths', and 'Under-Five Deaths'.
 
-* Overall Mortality Trend Over Time:
+i. Overall Mortality Trend Over Time:
 Line Chart:
 X-axis: Year
 Y-axis: Adult Mortality, Infant Mortality and Under Five death.
 This visualization gives a snapshot of how all type mortality has evolved over time.
 
-* * Infant vs. Under Five vs. Adult Mortality:
+ii. Infant vs. Under Five vs. Adult Mortality:
 Stacked Column Chart:
 X-axis:  Country
 Bars: Separate bars for 'Infant Deaths', 'Under Five Death' and 'Adult Mortality'.
 This helps compare the rate of infant deaths, under five death to adult mortality across countries.
 
-* * *  Mortality by Status (Developed vs. Developing):
+iii.  Mortality by Status (Developed vs. Developing):
 Clustered Bar Chart:
 X-axis: Status
 Bars: Separate bars for 'Developed' and 'Developing' under each year or country, representing either 'Adult Mortality', 'Infant Deaths' and Under Five Death.
 This chart allows you to identify disparities in mortality between developed and developing nations.
 
 
-* * * * Correlation Analysis:
+iv. Correlation Analysis:
 Examine the relationship between mortality and other factors.
 Scatter Plot:
 X-axis: Life Expectancy
 Y-axis: Adult Mortality 
 This provide insights into whether higher life expectancy is correlated with lower mortality.
 
-* * * * * Interactive Filtering:
+v. Interactive Filtering:
 Introduce slicers to allow users to drill down into specifics:
 Year Slicer: To focus on specific years or time frames.
 Country Slicer: To zero in on a particular country's mortality data.
 Status Slicer: To filter data based on 'Developed' or 'Developing' status.
 
-* * * * * * Geographical Insights:
+vi. Geographical Insights:
 Map Visual:
 Use 'Country' for location and 'Adult Mortality' for the value.
 This visualization provides a global view of mortality rates, helping identify regions or continents with particularly high or low rates.
@@ -143,42 +144,42 @@ Analyze how mortality has trended over the years. Are there specific years where
 Explored the disparity in mortality between developed and developing nations.
 Incorporate a consistent color scheme, clear labeling, and well-organized layout to ensure your dashboard effectively communicates these insights. Combining visuals with the dataset's context can help stakeholders understand and possibly address mortality issues more effectively.
 
-## Vaccination and Disease Metrics in Life Expectancy :
+## 3. Vaccination and Disease Metrics in Life Expectancy :
 
 ![WHO_LifeExpectancy_DataAnalysis](https://github.com/MousumiAria/WHO_LifeExpectancy_DataAnalysis/blob/main/Vacc&DiseMatrics_LE.JPG?raw=true)
 
 Analyzing "Disease Metrics in Relation to Life Expectancy" all related columns are 'Hepatitis B', 'Measles', 'Polio', 'Diphtheria', and 'HIV/AIDS'.
 
-* Vaccination Trends Over Time:
+i. Vaccination Trends Over Time:
 Line Chart:
 X-axis: Year
 Y-axis: Vaccination metrics (like 'Hepatitis B', 'Polio', and 'Diphtheria')
 Legend: Different diseases
 This visualization shows how vaccination rates for various diseases have changed over the years.
 
-* * Disease Prevalence Chart:
+ii. Disease Prevalence Chart:
 Stacked Bar Chart:
 X-axis: Year
 Y-axis: Disease metrics (like 'Measles' and 'HIV/AIDS' incidence/prevalence)
 This provides a clear view of how disease incidence or prevalence has evolved over time.
 
-* * *  Vaccination Rates by Country:
+iii. Vaccination Rates by Country:
 Column Chart:
 Use separate charts for each vaccine type or use a combined stacked bar chart.
 Sort countries based on vaccination rates to see which countries have the highest and lowest vaccination coverage.
 
-* * * * Disease Prevalence by Country:
+iv. Disease Prevalence by Country:
 Bar Chart:
 Use separate charts for each Disease type.
 Sort countries based on Disease Prevalence to see which countries have the highest and lowest Disease Prevalence.
 
-* * * * * Correlation Between Life Expectancy vs Hepatitis B and Life Expectancy Measles:
+v. Correlation Between Life Expectancy vs Hepatitis B and Life Expectancy Measles:
 Scatter Plot:
 X-axis: Life Expectancy
 Y-axis: Hepatitis B and Measles
 This helps explore if there's a direct relationship between vaccination coverage and higher life expectancy.
 
-* * * * * * Interactive Filtering:
+vi. Interactive Filtering:
 Slicers:
 Year: To analyze specific years or time frames.
 Country: To focus on a particular country.
@@ -189,41 +190,41 @@ Identify regions or countries with low vaccination rates and explore their life 
 Analyze countries with high disease prevalence and understand how it affects their life expectancy.
 Observe if there's a trend indicating that increased vaccination over the years has led to an increase in life expectancy.
 
-## Diet and Health Indicators:
+## 4. Diet and Health Indicators:
 
 ![WHO_LifeExpectancy_DataAnalysis](https://github.com/MousumiAria/WHO_LifeExpectancy_DataAnalysis/blob/main/DietHealth_LE.JPG?raw=true)
 
 To extract insights on "Diet and Health Indicators" from the dataset in Power BI, used columns are BMI, thinness in different age groups, alcohol consumption, and how these correlate with life expectancy and other health metrics. Here's a step-by-step approach:
 
-* Overall BMI Distribution:
+i. Overall BMI Distribution:
 Bar Plot:
 This visualization can show you the distribution of BMI across the dataset, indicating how many countries or regions fall into various BMI categories.
 
-* * Alcohol Consumption vs. Health Indicators:
+ii. Alcohol Consumption vs. Health Indicators:
 Scatter Plot:
 X-axis: Alcohol
 Y-axis: Life Expectancy 
 It provide insights into whether higher alcohol consumption correlates with certain health outcomes.
 
-* * * Trends in Thinness:
+iii. Trends in Thinness:
 Line Chart:
 X-axis: Year
 Y-axis: Different age groups (1-19 vs. 5-9 years)
 This helps visualize if thinness trends are getting better or worse over time and whether there are significant differences between age groups.
 
-* * * * BMI and Life Expectancy:
+iv. BMI and Life Expectancy:
 Scatter Plot:
 X-axis: Average BMI for a country or region
 Y-axis: Life Expectancy
 By plotting these two metrics against each other, it shows a clear trend indicating that regions with higher BMI have different life expectancies.
 
-* * * * * Correlation Matrix:
+v. Correlation Matrix:
 Using a matrix or a set of scatter plots, you can check correlations between:
 Alcohol and Life Expectancy
 BMI and Adult Mortality
 This helps to understand if and how dietary indicators are related to health outcomes
 
-* * * * * *  Geographical Analysis:
+vi.  Geographical Analysis:
 Map Visual:
 Used 'Country' for location and 'BMI' for values to provide a geographical representation of these metrics.
 
@@ -236,7 +237,7 @@ Potential correlations between dietary indicators and health outcomes.
 
 By analyzing these diet and health indicators, policymakers and health professionals can gain a clearer understanding of how dietary habits might be impacting health outcomes on both national and global scales.
 
-## Relationship between Economic and Health Indicators:
+## 5. Relationship between Economic and Health Indicators:
 
 ![WHO_LifeExpectancy_DataAnalysis](https://github.com/MousumiAria/WHO_LifeExpectancy_DataAnalysis/blob/main/RelaBetw_EcoHealth_Indicators.JPG?raw=true)
 
@@ -244,30 +245,30 @@ Analyzing the relationship between economic and health indicators is essential t
 
 Ensure columns like 'GDP', 'Income composition of resources', and 'Life Expectancy' (or other health indicators) have appropriate data types.
 
-* Time Series Analysis:
+i. Time Series Analysis:
 Line Chart:
 X-axis: Year
 Y-axis: Total GDP
 Legend: Different countries or regions
 Observed how GDP have evolved over time for different countries.
 
-* * GDP vs. Life Expectancy:
+ii. GDP vs. Life Expectancy:
 Scatter Plot:
 X-axis: Average GDP 
 Y-axis: Life Expectancy
 This plot can show how life expectancy correlates with GDP, highlighting if countries with higher GDPs have longer average lifespans.
 
-* * * Income Composition vs. Adult Mortality:
+iii. Income Composition vs. Adult Mortality:
 Scatter Plot:
 X-axis: Income composition of resources
 Y-axis: A health metric like Adult Mortality
 This visualization helps analyze if countries with better income distribution have better health outcomes.
 
-* * * * Economic Status and Disease Prevalence:
+iv. Economic Status and Disease Prevalence:
 Bar or Column Chart:
 For a specific disease or health metric, compare its prevalence or rate across different GDP brackets or income compositions. This helps identify if certain diseases are more prevalent in richer or poorer countries.
 
-* * * * * Geographical Analysis:
+v. Geographical Analysis:
 Map Visual:
 Use 'Country' for location.
 Use 'GDP' or 'Income composition of resources' for size and 'Life Expectancy' or another health metric for color intensity.
@@ -284,35 +285,35 @@ Make sure titles, labels, and legends are clear and descriptive.
 Arrange visuals in a logical flow, possibly starting with global views and then narrowing down to specific country or region comparisons.
 Exploring the relationship between economic and health indicators provides valuable insights that can guide policymakers, NGOs, and other stakeholders in making informed decisions about where and how to allocate resources for the best health outcomes.
 
-## Socio-economic Indicators and Health:
+## 6. Socio-economic Indicators and Health:
 
 ![WHO_LifeExpectancy_DataAnalysis](https://github.com/MousumiAria/WHO_LifeExpectancy_DataAnalysis/blob/main/SocioEcoHi.JPG?raw=true)
 
 To obtain insights from the relationship between socio-economic and health indicators it focus on columns and metrics that relate to societal structures and economic factors, as well as their potential impacts on health outcomes. Related columns like 'Schooling', 'Income composition of resources', 'GDP', 'Status' (Developed/Developing), and health indicators like 'Life Expectancy', 'Adult Mortality', etc.
 
-* Life Expectancy vs. Schooling:
+i. Life Expectancy vs. Schooling:
 Scatter Plot:
 X-axis: Average years of schooling
 Y-axis: Life Expectancy
 This can show if regions with higher educational attainment tend to have longer average lifespans.
 
-* * GDP and Health Indicators:
+ii. GDP and Health Indicators:
 Scatter Plot:
 X-axis: GDP per capita
 Y-axis: A specific health metric like 'Adult Mortality'
 Analyze if countries with a higher GDP per capita tend to have better health outcomes.
 
-* * * Income Composition vs. Health Metrics:
+iii. Income Composition vs. Health Metrics:
 Bar or Column Chart:
 Group countries based on their income composition (you can create buckets like Low, Medium, High).
 Compare health metrics like life expectancy or infant mortality across these groups.
 
-* * * * Geographical Insights:
+iv. Geographical Insights:
 Map Visual:
 Use 'Country' for location.
 Represent socio-economic data with color (e.g., deeper colors for higher GDP) and health metrics with the size of bubbles (larger circles for better health outcomes or vice versa).
 
-* * * * * Correlation Analysis:
+v. Correlation Analysis:
 Investigate Trend of Socio Ecomic factor GDP per Capita
 Time Series Analysis:
 viii)Line Chart:
@@ -320,7 +321,7 @@ X-axis: Year
 Y-axis: GDP per Capita
 Observe how socio-economic factors have evolved over time for different countries or regions.
 
-* * * * * * Stack Bar Chart with Line Chart:
+vi. Stack Bar Chart with Line Chart:
 Investigate the correlation of Total Expenditure and Income composition of resources with Country
 
 Insights and Observations:

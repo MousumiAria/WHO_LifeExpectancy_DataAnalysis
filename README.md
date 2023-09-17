@@ -1,26 +1,14 @@
 
 <h1> <align="center">WHO_LifeExpectancy_DataAnalysis</h1>
 
-## Developer: 
-
-<a href="https://https://github.com/MousumiAria"> Mousumi Sen</a>
-
-## Level: 
-* Data Analyst
-
-
-## The timeline of the project: 
-**July-August 2023**
-
-
-## Dataset details:
-* The dataset is sourced from the World Health Organization and comprises various health and economic metrics for different countries across several years.It is downloaded from Kaggle website: https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who
-
 ## Description:
 
 This project conducts an in-depth analysis of the World Health Organization's Life Expectancy dataset. The primary aim is to derive insights on global health trends, mortality rates, the impact of socio-economic factors on health, and other relevant indicators.
 
-## Key Metrics
+## Dataset details:
+The dataset is sourced from the World Health Organization and comprises various health and economic metrics for different countries across several years. It is downloaded from Kaggle website: https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who
+
+## Key Metrics:
 * Life Expectancy: Average number of years a person is expected to live.
 * Adult Mortality: Adult mortality rate.
 * Infant Deaths: Number of infant deaths per year.
@@ -28,8 +16,7 @@ This project conducts an in-depth analysis of the World Health Organization's Li
 * Economic Indicators: GDP, Income Composition of Resources, etc.
 * Social Factors: Schooling, Population. 
 
-## Columns Description 
-
+## Columns Description:
 * Country: Country
 * Year: Year
 * Status: Classification of countries as 'developed' or 'developing' based on their gross domestic product(GDP). 1 
@@ -53,17 +40,11 @@ This project conducts an in-depth analysis of the World Health Organization's Li
 * Income composition of resources: Human Development Index in terms of income composition of resources (index ranging from 0 to 1)
 * Schooling: Number of years of Schooling (years)
 
-## Tools & Technologies
-
-* Power BI: Used for data visualization, transformation, and analysis.
-* DAX: Employed for complex calculations and data modeling.
-
-## Data Preparation
-
+## Data Preparation:
 * Data Cleaning: Addressed missing values, outliers, and inconsistent data types.
 * Data Modeling: Created relationships between various tables derived from the primary dataset.
 
-## Visualizetion and Analysis
+## Visualizetion and Analysis:
 
 ## 1.Trends and Disparities in Life Expectancy:
 
@@ -118,7 +99,6 @@ Clustered Bar Chart:
 X-axis: Status
 Bars: Separate bars for 'Developed' and 'Developing' under each year or country, representing either 'Adult Mortality', 'Infant Deaths' and Under Five Death.
 This chart allows you to identify disparities in mortality between developed and developing nations.
-
 
 iv. Correlation Analysis:
 Examine the relationship between mortality and other factors.
@@ -228,7 +208,6 @@ vi.  Geographical Analysis:
 Map Visual:
 Used 'Country' for location and 'BMI' for values to provide a geographical representation of these metrics.
 
-
 Insights:
 Use the insights derived from the visuals to draw conclusions, such as:
 Countries with the highest and lowest BMIs.
@@ -273,7 +252,6 @@ Map Visual:
 Use 'Country' for location.
 Use 'GDP' or 'Income composition of resources' for size and 'Life Expectancy' or another health metric for color intensity.
 This visualization provides a global perspective on the relationship between economic and health indicators.
-
 
 Insights and Analysis:
 Identify countries that defy the norm, i.e., those with low GDP but high life expectancy or vice versa.
@@ -329,5 +307,18 @@ Identify countries that stand out, for instance, those with lower economic indic
 Understand if certain socio-economic factors consistently correlate with specific health outcomes across different countries and over time.
 
 Combining the insights from socio-economic and health indicators offers a comprehensive view of the factors that contribute to well-being. Such analyses can guide policy-making, resource allocation, and targeted interventions for improved public health.
+
+## Tools & Technologies:
+* Power BI: Used for data visualization, transformation, and analysis.
+* DAX: Employed for complex calculations and data modeling.
+
+## Developer: 
+<a href="https://https://github.com/MousumiAria"> Mousumi Sen</a>
+
+## Level: 
+* Data Analyst
+
+## The timeline of the project: 
+**July-August 2023**
 
 

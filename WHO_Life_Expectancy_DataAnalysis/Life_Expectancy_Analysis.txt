@@ -1,0 +1,298 @@
+Project Name:WHO_LifeExpectancy_DataAnalysis
+
+Potential insights and visualizations are:
+
+1. Trends and Disparities in Life Expectancy:
+
+i)Data Load and Preparation:
+First, ensure you have loaded the dataset into Power BI.
+Check the data types of your columns. Ensure the 'Year' column is recognized as a date or a whole number, and 'Life Expectancy' is a number.
+
+ii). Overall Life Expectancy Trend:
+Insert a line chart into your report.
+Drag the 'Year' column into the axis area and 'Life Expectancy' into the values area. This will show you the global trend of life expectancy over time.
+
+iii). Country-wise Trend:
+Use another line chart or a combo chart.
+For the axis, use 'Year', and for values use 'Life Expectancy'. Also, drag the 'Country' field into the legend or color area. This will give you a line for each country, allowing you to see disparities and trends at the same time.
+
+iv) Comparing Developed vs. Developing:
+Use a line or column chart to represent the data.
+Add 'Year' to the axis and 'Life Expectancy' to values.
+Use 'Status' (Developed/Developing) in the legend or color area.
+This will allow you to see how developed countries' life expectancy trends compare to those of developing countries.
+
+v). Country with Highest & Lowest Life Expectancy:
+For a specific year or range, you might want to identify countries with the highest and lowest life expectancy.
+Use a card or a KPI visual for highest and lowest values.
+Or use a bar or column chart sorted by 'Life Expectancy' to see the countries ranked by their life expectancy.
+
+vi).Interactive Filtering:
+Introduce slicers to your dashboard, which allow users to select specific years or countries. This will enable users to focus on specific time frames or countries of interest.
+Incorporate a map visual and use 'Life Expectancy' as a measure. This provides a geographical representation of life expectancy data, where users can identify regions with higher or lower life expectancy.
+
+vii). Insights:
+Using the visuals, derive insights such as:
+Countries that have seen a significant increase or decrease in life expectancy over time.
+The gap between the highest and lowest life expectancy and how it's changing.
+How external events, like wars or economic downturns, might have impacted life expectancy in certain regions.
+
+
+2. Relationship between Economic and Health Indicators:
+
+Analyzing the relationship between economic and health indicators is essential to understand how a country's economic status can influence the health and well-being of its population. Using Power BI, you can visualize and analyze these relationships effectively. Here's how you can extract insights on the relationship between economic and health indicators from your dataset:
+
+i). Data Preparation:
+Load your dataset into Power BI.
+Ensure columns like 'GDP', 'Income composition of resources', and 'Life Expectancy' (or other health indicators) have appropriate data types.
+ii). GDP vs. Life Expectancy:
+Scatter Plot:
+X-axis: GDP per capita
+Y-axis: Life Expectancy
+This plot can show how life expectancy correlates with GDP, highlighting if countries with higher GDPs have longer average lifespans.
+iii). Income Composition vs. Health Metrics:
+Scatter Plot:
+X-axis: Income composition of resources
+Y-axis: A health metric of interest (e.g., Adult Mortality)
+This visualization helps analyze if countries with better income distribution have better health outcomes.
+iv)Economic Status and Disease Prevalence:
+Bar or Column Chart:
+For a specific disease or health metric, compare its prevalence or rate across different GDP brackets or income compositions. This helps identify if certain diseases are more prevalent in richer or poorer countries.
+v). Geographical Analysis:
+Map Visual:
+Use 'Country' for location.
+Use 'GDP' or 'Income composition of resources' for size and 'Life Expectancy' or another health metric for color intensity.
+This visualization provides a global perspective on the relationship between economic and health indicators.
+vi)Correlation Analysis:
+Use a correlation matrix or heatmap to check how various economic and health metrics correlate with one another.
+vii). Time Series Analysis:
+Line Chart:
+X-axis: Year
+Y-axis: Economic or health metric
+Legend: Different countries or regions
+Observe how economic and health metrics have evolved over time for different countries.
+viii)Interactive Filtering:
+Slicers:
+Allow viewers to focus on specific years, countries, or economic statuses using slicers like 'Year', 'Country', and 'Status'.
+ix). Insights and Analysis:
+Identify countries that defy the norm, i.e., those with low GDP but high life expectancy or vice versa.
+Determine if there's a clear threshold of GDP where health outcomes significantly improve.
+Analyze how external events, such as economic crises, impact health indicators.
+x)Dashboard Design:
+Use consistent color schemes to represent economic and health metrics distinctly.
+Make sure titles, labels, and legends are clear and descriptive.
+Arrange visuals in a logical flow, possibly starting with global views and then narrowing down to specific country or region comparisons.
+Exploring the relationship between economic and health indicators provides valuable insights that can guide policymakers, NGOs, and other stakeholders in making informed decisions about where and how to allocate resources for the best health outcomes.
+
+3. Disease Metrics:
+
+Analyzing "Vaccination and Disease Metrics in Relation to Life Expectancy" using your dataset in Power BI entails focusing on columns that pertain to diseases and vaccinations. Let's go through the steps:
+
+i). Data Preparation:
+Load the dataset into Power BI.
+Ensure columns like 'Hepatitis B', 'Measles', 'Polio', 'Diphtheria', and 'HIV/AIDS' have the correct data types.
+
+ii). Vaccination Trends Over Time:
+Line Chart:
+X-axis: Year
+Y-axis: Vaccination metrics (like 'Hepatitis B', 'Polio', and 'Diphtheria')
+Legend: Different diseases
+This visualization shows how vaccination rates for various diseases have changed over the years
+
+iii). Disease Prevalence Over Time:
+Line or Stacked Bar Chart:
+X-axis: Year
+Y-axis: Disease metrics (like 'Measles' or 'HIV/AIDS' incidence/prevalence)
+This provides a clear view of how disease incidence or prevalence has evolved over time.
+iv) . Vaccination Rates by Country:
+Bar or Column Chart:
+Use separate charts for each vaccine type or use a combined stacked bar chart.
+Sort countries based on vaccination rates to see which countries have the highest and lowest vaccination coverage.
+v). Disease Prevalence by Country:
+Bar or Column Chart:
+Like the vaccination chart, but focusing on disease metrics.
+vi). Correlation Between Vaccination and Life Expectancy:
+Scatter Plot:
+X-axis: Life Expectancy
+Y-axis: Vaccination Rate (e.g., Hepatitis B coverage)
+This helps explore if there's a direct relationship between vaccination coverage and higher life expectancy.
+vii). Correlation Between Disease Prevalence and Life Expectancy:
+Scatter Plot:
+X-axis: Life Expectancy
+Y-axis: Disease Prevalence (e.g., Measles cases)
+Use this to see if higher disease prevalence correlates with lower life expectancy.
+viii). Geographical View:
+Map Visual:
+Use 'Country' for location and use vaccination rates or disease prevalence for values.
+This provides a geographical representation of vaccination coverage or disease prevalence.
+ix). Interactive Filtering:
+Slicers:
+Year: To analyze specific years or time frames.
+Country: To focus on a particular country.
+Status (Developed/Developing): To compare metrics between developed and developing countries.
+x). Tool Tips and Additional Data:
+Enhance visuals by adding tool tips that provide additional context, like GDP, population, or other health indicators when hovering over a country or data point.
+xi). Insights:
+Identify regions or countries with low vaccination rates and explore their life expectancy.
+Analyze countries with high disease prevalence and understand how it affects their life expectancy.
+Observe if there's a trend indicating that increased vaccination over the years has led to an increase in life expectancy.
+
+
+To make your dashboard effective, maintain a consistent color scheme, use clear labeling, and structure the layout logically. With these insights, policymakers and stakeholders can identify areas of concern and possibly address vaccination and disease-related challenges more proactively.
+
+
+4. Socio-economic Indicators and Health:
+To obtain insights from the relationship between socio-economic and health indicators using Power BI, you'll want to focus on columns and metrics that relate to societal structures and economic factors, as well as their potential impacts on health outcomes. Let's walk through this step by step:
+
+i). Data Preparation:
+Load your dataset into Power BI.
+Ensure columns like 'Schooling', 'Income composition of resources', 'GDP', 'Status' (Developed/Developing), and health indicators like 'Life Expectancy', 'Adult Mortality', etc., have the right data types.
+ii). Life Expectancy vs. Schooling:
+Scatter Plot:
+X-axis: Average years of schooling
+Y-axis: Life Expectancy
+This can show if regions with higher educational attainment tend to have longer average lifespans.
+iii). GDP and Health Indicators:
+Scatter Plot:
+X-axis: GDP per capita
+Y-axis: A specific health metric (like 'Adult Mortality')
+Analyze if countries with a higher GDP per capita tend to have better health outcomes.
+iv)Income Composition vs. Health Metrics:
+Bar or Column Chart:
+Group countries based on their income composition (you can create buckets like Low, Medium, High).
+Compare health metrics like life expectancy or infant mortality across these groups.
+v). Status (Developed vs. Developing) Analysis:
+Clustered Bar or Column Chart:
+Compare health metrics between 'Developed' and 'Developing' nations to see disparities.
+vi)Geographical Insights:
+Map Visual:
+Use 'Country' for location.
+Represent socio-economic data with color (e.g., deeper colors for higher GDP) and health metrics with the size of bubbles (larger circles for better health outcomes or vice versa).
+vii). Correlation Analysis:
+Investigate the correlation between socio-economic indicators and health outcomes using a correlation matrix or heatmap.
+Time Series Analysis:
+viii)Line Chart:
+X-axis: Year
+Y-axis: Socio-economic or health metric
+Observe how socio-economic factors and health metrics have evolved over time for different countries or regions.
+ix). Interactive Elements:
+Slicers:
+Allow viewers to choose specific years, countries, or economic status (Developed/Developing) to customize the view of the dashboard.
+x)Insights and Observations:
+Identify countries that stand out, for instance, those with lower economic indicators but higher health outcomes, and vice versa.
+Understand if certain socio-economic factors consistently correlate with specific health outcomes across different countries and over time.
+xi). Dashboard Design:
+Create a cohesive and user-friendly dashboard by using clear titles, labels, and a consistent color scheme. Arrange visuals logically, perhaps starting with global overviews and narrowing down to specific insights.
+
+Combining the insights from socio-economic and health indicators offers a comprehensive view of the factors that contribute to well-being. Such analyses can guide policy-making, resource allocation, and targeted interventions for improved public health.
+
+5. Diet and Health Indicators:
+
+To extract insights on "Diet and Health Indicators" from your dataset in Power BI, you'd primarily be focusing on columns like BMI, thinness in different age groups, alcohol consumption, and how these correlate with life expectancy and other health metrics. Here's a step-by-step approach:
+
+i). Data Preparation:
+Load your dataset into Power BI.
+Ensure relevant columns like 'BMI', 'Alcohol', 'thinness 1-19 years', and 'thinness 5-9 years' have appropriate data types assigned.
+ii). Overall BMI Distribution:
+Histogram or Box Plot:
+This visualization can show you the distribution of BMI across the dataset, indicating how many countries or regions fall into various BMI categories.
+iii). Alcohol Consumption vs. Health Indicators:
+Scatter Plot:
+X-axis: Alcohol
+Y-axis: Life Expectancy or any other health indicator
+This can provide insights into whether higher alcohol consumption correlates with certain health outcomes.
+
+iv)Trends in Thinness:
+Line Chart:
+X-axis: Year
+Y-axis: Average thinness rate
+Legend: Different age groups (1-19 vs. 5-9 years)
+This helps visualize if thinness trends are getting better or worse over time and whether there are significant differences between age groups.
+v). BMI and Life Expectancy:
+Scatter Plot:
+X-axis: Average BMI for a country or region
+Y-axis: Life Expectancy
+By plotting these two metrics against each other, you can see if there's a clear trend indicating that regions with higher BMI have different life expectancies.
+
+vi). Correlation Matrix:
+Using a matrix or a set of scatter plots, you can check correlations between:
+Alcohol and Life Expectancy
+BMI and Adult Mortality
+Thinness and Infant Deaths
+This helps to understand if and how dietary indicators are related to health outcomes.
+vii). Geographical Analysis:
+Map Visual:
+Use 'Country' for location and 'BMI' or 'Alcohol' or 'thinness' for values to provide a geographical representation of these metrics.
+
+viii) Interactive Filtering:
+Slicers:
+Use slicers for 'Year', 'Country', or 'Status' to enable interactive filtering, allowing viewers to focus on specific time frames, countries, or compare developed vs. developing nations.
+ix). Comparison with Global Averages:
+Bar or Column Charts:
+Compare a country's metrics (like BMI or Alcohol consumption) with global averages to see how individual countries fare against the global norm.
+
+x)Insights:
+Use the insights derived from the visuals to draw conclusions, such as:
+Countries with the highest and lowest BMIs.
+Trends in thinness among younger populations.
+Potential correlations between dietary indicators and health outcomes.
+xi). Layout & Design:
+Ensure that the dashboard is well-organized, labeled, and uses consistent color schemes to help guide the viewer. Use titles and annotations to provide context and highlight key findings.
+
+By analyzing these diet and health indicators, policymakers and health professionals can gain a clearer understanding of how dietary habits might be impacting health outcomes on both national and global scales.
+
+6. Mortality Analysis:
+
+i)Data Preparation:
+Load your dataset into Power BI.
+Ensure data types are correctly assigned, especially for mortality-related columns such as 'Adult Mortality', 'Infant Deaths', and 'Under-Five Deaths'.
+
+ii). Overall Mortality Trend Over Time:
+Line Chart:
+X-axis: Year
+Y-axis: Adult Mortality (or other relevant mortality measures)
+This visualization gives a snapshot of how adult mortality has evolved over time.
+
+iii) Infant vs. Adult Mortality:
+Stacked Bar or Column Chart:
+X-axis: Year or Country
+Bars: Separate bars or stacks for 'Infant Deaths' and 'Adult Mortality'.
+This helps compare the rate of infant deaths to adult mortality over time or across countries.
+
+iv). Mortality by Status (Developed vs. Developing):
+Clustered Bar or Column Chart:
+X-axis: Year or Country
+Bars: Separate bars for 'Developed' and 'Developing' under each year or country, representing either 'Adult Mortality' or 'Infant Deaths'.
+This chart allows you to identify disparities in mortality between developed and developing nations.
+
+v)Highest and Lowest Mortality Countries:
+Bar or Column Chart:
+Sort countries based on 'Adult Mortality' or 'Infant Deaths' to identify countries with the highest and lowest mortality rates for a selected year or time frame.
+
+vi). Correlation Analysis:
+Examine the relationship between mortality and other factors.
+
+Scatter Plot:
+X-axis: Life Expectancy
+Y-axis: Adult Mortality (or Infant Deaths)
+This can provide insights into whether higher life expectancy is correlated with lower mortality.
+
+vii). Interactive Filtering:
+Introduce slicers to allow users to drill down into specifics:
+Year Slicer: To focus on specific years or time frames.
+Country Slicer: To zero in on a particular country's mortality data.
+Status Slicer: To filter data based on 'Developed' or 'Developing' status.
+
+viii). Geographical Insights:
+Map Visual:
+Use 'Country' for location and 'Adult Mortality' or 'Infant Deaths' for the value.
+This visualization provides a global view of mortality rates, helping identify regions or continents with particularly high or low rates.
+
+ix) Tool Tips and Additional Information:
+Enhance your visuals with tool tips that can provide extra context. For instance, when hovering over a country, display additional metrics like GDP, Population, or HIV/AIDS prevalence, which could be related to mortality.
+
+x) Insights:
+Identify countries or regions with alarming mortality rates.
+Analyze how mortality has trended over the years. Are there specific years where a spike occurred? What could be the reasons?
+Explore the disparity in mortality between developed and developing nations.
+Incorporate a consistent color scheme, clear labeling, and well-organized layout to ensure your dashboard effectively communicates these insights. Combining visuals with the dataset's context can help stakeholders understand and possibly address mortality issues more effectively.

@@ -192,7 +192,7 @@ Observe if there's a trend indicating that increased vaccination over the years 
 
 ## 4. Diet and Health Indicators:
 
-![WHO_LifeExpectancy_DataAnalysis](https://github.com/MousumiAria/WHO_LifeExpectancy_DataAnalysis/blob/main/DietHealth_LE.JPG?raw=true)
+![WHO_LifeExpectancy_DataAnalysis]((https://github.com/MousumiAria/WHO_LifeExpectancy_DataAnalysis/blob/main/DietHealth_LE.JPG))
 
 To extract insights on "Diet and Health Indicators" from the dataset in Power BI, used columns are BMI, thinness in different age groups, alcohol consumption, and how these correlate with life expectancy and other health metrics. Here's a step-by-step approach:
 
